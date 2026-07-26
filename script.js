@@ -2,9 +2,13 @@ const startButton = document.getElementById("startButton");
 
 const gameArea = document.getElementById("gameArea");
 
-const countryName = document.getElementById("countryName");
-
 const map = document.getElementById("map");
+
+const popup = document.getElementById("popup");
+
+const continueButton = document.getElementById("continueButton");
+
+const countryName = document.getElementById("countryName");
 
 const frog = document.getElementById("frog");
 
@@ -21,7 +25,6 @@ const abbreviations = {
     Belgium: "BE",
     France: "FR",
     Germany: "DE",
-    Poland: "PL",
     Netherlands: "NL",
     Luxembourg: "LU",
     Denmark: "DK",
@@ -49,7 +52,6 @@ const abbreviations = {
 };
 
 
-
 startButton.addEventListener("click", function () {
 
     startButton.style.display = "none";
@@ -58,10 +60,16 @@ startButton.addEventListener("click", function () {
 
     drawMap();
 
-    showCountry();
+    openPopup();
 
 });
 
+
+continueButton.addEventListener("click", function () {
+
+    popup.classList.add("hidden");
+
+});
 
 
 
@@ -69,57 +77,38 @@ function drawMap() {
 
     map.innerHTML = "";
 
-
-    Object.keys(mapPositions).forEach(function(country) {
-
+    Object.keys(mapPositions).forEach(function(country){
 
         const node = document.createElement("button");
 
-
         node.className = "countryNode";
 
+        node.innerHTML = "🐸<br>" + abbreviations[country];
 
-        node.innerHTML =
-            "🐸<br>" +
-            abbreviations[country];
+        node.style.left = (mapPositions[country].x / 5) + "px";
 
+        node.style.top = (mapPositions[country].y / 5) + "px";
 
-        node.dataset.country = country;
+        node.addEventListener("click", function(){
 
+            if(!popup.classList.contains("hidden"))
+                return;
 
-
-        node.style.left =
-            (mapPositions[country].x / 5) + "px";
-
-
-        node.style.top =
-            (mapPositions[country].y / 5) + "px";
-
-
-
-        node.addEventListener("click", function() {
-
-
-            if (canTravelTo(country)) {
+            if(canTravelTo(country)){
 
                 currentCountry = country;
 
                 drawMap();
 
-                showCountry();
+                openPopup();
 
             }
 
-
         });
-
 
         map.appendChild(node);
 
-
     });
-
-
 
     addVanessa();
 
@@ -127,66 +116,44 @@ function drawMap() {
 
 
 
-
-
-function addVanessa() {
-
+function addVanessa(){
 
     const player = document.createElement("div");
 
-
     player.className = "player";
-
 
     player.textContent = "👩🏻‍🦱";
 
+    player.style.left = (mapPositions[currentCountry].x / 5 + 25) + "px";
 
-    player.style.left =
-        (mapPositions[currentCountry].x / 5 + 25)
-        + "px";
-
-
-    player.style.top =
-        (mapPositions[currentCountry].y / 5 - 30)
-        + "px";
-
+    player.style.top = (mapPositions[currentCountry].y / 5 - 25) + "px";
 
     map.appendChild(player);
 
+}
+
+
+
+function canTravelTo(country){
+
+    return countries[currentCountry].neighbours.includes(country);
 
 }
 
 
 
+function openPopup(){
 
+    const data = countries[currentCountry];
 
-function canTravelTo(country) {
+    countryName.textContent = "🇪🇺 " + currentCountry;
 
+    frog.textContent = data.frog;
 
-    return countries[currentCountry]
-        .neighbours
-        .includes(country);
+    birthday.textContent = "🎂 " + data.birthdayWish;
 
+    trivia.textContent = "📚 " + data.trivia;
 
-}
-
-
-
-function showCountry() {
-
-    alert("showCountry is running!");
-
-    countryName.textContent =
-        "🇪🇺 " + currentCountry;
-
-    frog.textContent =
-        countries[currentCountry].frog;
-
-    birthday.textContent =
-        countries[currentCountry].birthdayWish;
-
-    trivia.textContent =
-        "📚 Trivia: " +
-        countries[currentCountry].trivia;
+    popup.classList.remove("hidden");
 
 }
