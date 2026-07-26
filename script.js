@@ -16,13 +16,44 @@ const trivia = document.getElementById("trivia");
 let currentCountry = "Belgium";
 
 
+const abbreviations = {
+
+    Belgium: "BE",
+    France: "FR",
+    Germany: "DE",
+    Netherlands: "NL",
+    Luxembourg: "LU",
+    Denmark: "DK",
+    Ireland: "IE",
+    Spain: "ES",
+    Portugal: "PT",
+    Italy: "IT",
+    Austria: "AT",
+    Czechia: "CZ",
+    Slovakia: "SK",
+    Hungary: "HU",
+    Slovenia: "SI",
+    Croatia: "HR",
+    Greece: "GR",
+    Bulgaria: "BG",
+    Romania: "RO",
+    Lithuania: "LT",
+    Latvia: "LV",
+    Estonia: "EE",
+    Sweden: "SE",
+    Finland: "FI",
+    Cyprus: "CY",
+    Malta: "MT"
+
+};
+
+
 
 startButton.addEventListener("click", function () {
 
     startButton.style.display = "none";
 
     gameArea.style.display = "block";
-
 
     drawMap();
 
@@ -33,9 +64,7 @@ startButton.addEventListener("click", function () {
 
 
 
-
 function drawMap() {
-
 
     map.innerHTML = "";
 
@@ -49,7 +78,9 @@ function drawMap() {
         node.className = "countryNode";
 
 
-        node.textContent = "🐸";
+        node.innerHTML =
+            "🐸<br>" +
+            abbreviations[country];
 
 
         node.dataset.country = country;
@@ -65,26 +96,21 @@ function drawMap() {
 
 
 
-        node.addEventListener("click", function () {
+        node.addEventListener("click", function() {
 
 
             if (canTravelTo(country)) {
 
-
                 currentCountry = country;
-
-
-                showCountry();
-
 
                 drawMap();
 
+                showCountry();
 
             }
 
 
         });
-
 
 
         map.appendChild(node);
@@ -95,8 +121,6 @@ function drawMap() {
 
 
     addVanessa();
-
-
 
 }
 
@@ -117,11 +141,13 @@ function addVanessa() {
 
 
     player.style.left =
-        (mapPositions[currentCountry].x / 5 + 20) + "px";
+        (mapPositions[currentCountry].x / 5 + 25)
+        + "px";
 
 
     player.style.top =
-        (mapPositions[currentCountry].y / 5 - 20) + "px";
+        (mapPositions[currentCountry].y / 5 - 30)
+        + "px";
 
 
     map.appendChild(player);
@@ -146,7 +172,6 @@ function canTravelTo(country) {
 
 
 
-
 function showCountry() {
 
 
@@ -165,12 +190,5 @@ function showCountry() {
     trivia.textContent =
         "📚 Trivia: " +
         countries[currentCountry].trivia;
-
-
-}
-
-
-    });
-
 
 }
