@@ -172,21 +172,18 @@ function canTravelTo(country) {
 
 
 
-
 function showCountry() {
 
+    alert("showCountry is running!");
 
     countryName.textContent =
         "🇪🇺 " + currentCountry;
 
-
     frog.textContent =
         countries[currentCountry].frog;
 
-
     birthday.textContent =
         countries[currentCountry].birthdayWish;
-
 
     trivia.textContent =
         "📚 Trivia: " +
