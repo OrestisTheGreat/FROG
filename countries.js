@@ -2,91 +2,91 @@ const countries = {
 
     Belgium: {
         frog: "Bart De Wever 🐸",
-        birthdayWish: "Gelukkige verjaardag! May your year be sweeter than Belgian chocolate and smoother than a train arriving on time... somewhere in Europe.",
+        birthdayWish: "Happy birthday! Please choose your birthday language: Dutch, French, or German.",
         trivia: "Belgium has more castles per square kilometre than almost any country in the world.",
         neighbours: ["France", "Netherlands", "Luxembourg", "Germany", "Ireland"]
     },
 
     France: {
         frog: "Emmanuel Macron 🐸",
-        birthdayWish: "Joyeux anniversaire! May your year be filled with great food, beautiful adventures, and not a single queue at the Eiffel Tower.",
+        birthdayWish: "Congratulations on your eTwinning award. Now stop collecting awards and enjoy your birthday.",
         trivia: "The Eiffel Tower grows about 15 cm taller every summer because steel expands in the heat.",
         neighbours: ["Belgium", "Luxembourg", "Germany", "Italy", "Spain", "Ireland"]
     },
 
     Germany: {
         frog: "Friedrich Merz 🐸",
-        birthdayWish: "Alles Gute! May your year run as smoothly as a well-engineered German machine (with only the occasional delayed train).",
+        birthdayWish: "Alles Gute! Your itinerary has been approved. Please proceed to your birthday in an orderly fashion.",
         trivia: "Germany once consisted of hundreds of tiny kingdoms, duchies, bishoprics, and free cities under the Holy Roman Empire.",
         neighbours: ["Denmark", "Netherlands", "Belgium", "Luxembourg", "France", "Austria", "Czechia", "Poland"]
     },
 
     Netherlands: {
         frog: "Rob Jetten 🐸",
-        birthdayWish: "Gefeliciteerd! May your year stay above water and always have the wind at your back.",
+        birthdayWish: "Gefeliciteerd! Here's your tulip. Please keep your feet on the ground. The Netherlands has enough experience fighting things trying to rise above sea level.",
         trivia: "The Netherlands was once ruled by the Dukes of Burgundy, then the Habsburgs, before winning its independence from Spain.",
         neighbours: ["Belgium", "Germany"]
     },
 
     Luxembourg: {
         frog: "Luc Frieden 🐸",
-        birthdayWish: "Happy birthday! May your year be small on worries but grand on adventures - just like Luxembourg.",
+        birthdayWish: "Happy birthday! Don't blink or you'll accidentally leave the country.",
         trivia: "Nearly half of Luxembourg's workforce commutes from neighbouring countries every day.",
         neighbours: ["Belgium", "France", "Germany"]
     },
 
     Denmark: {
         frog: "Mette Frederiksen 🐸",
-        birthdayWish: "Tillykke! May your year be full of hygge, happiness, and plenty of LEGO-worthy memories.",
+        birthdayWish: "Happy birthday! Here's some LEGO. Assembly required.",
         trivia: "The LEGO brick was invented in Denmark, and the word 'LEGO' comes from the Danish phrase 'leg godt' ('play well').",
         neighbours: ["Germany", "Sweden"]
     },
 
     Ireland: {
         frog: "Micheál Martin 🐸",
-        birthdayWish: "Lá breithe sona! May your year be filled with good friends, good stories, and a little Irish luck.",
+        birthdayWish: "Lá breithe sona! May your year be full of good music, great stories, and only the right kind of Irish luck.",
         trivia: "Halloween as we know it began in ancient Ireland with the Celtic festival of Samhain.",
         neighbours: ["France", "Belgium"]
     },
 
     Spain: {
         frog: "Pedro Sánchez 🐸",
-        birthdayWish: "¡Feliz cumpleaños! May your year be as lively as a Spanish fiesta and as bright as the Mediterranean sun.",
+        birthdayWish: "¡Feliz cumpleaños! Also... Leonor asked me to tell you she's not interested in Orestis. Sorry.",
         trivia: "Spain hosts La Tomatina, where tens of thousands of people throw tomatoes at each other just for fun.",
         neighbours: ["Portugal", "France"]
     },
 
     Portugal: {
         frog: "Luís Montenegro 🐸",
-        birthdayWish: "Feliz aniversário! May your year bring calm seas, sunny days, and adventures worth singing about.",
+        birthdayWish: "Feliz aniversário! Welcome back! We were wondering when you'd visit us again.",
         trivia: "Portugal's cork forests produce over half of the world's cork.",
         neighbours: ["Spain"]
     },
 
     Italy: {
         frog: "Giorgia Meloni 🐸",
-        birthdayWish: "Buon compleanno! May your year be filled with unforgettable journeys, amazing food, and perfect gelato weather.",
+        birthdayWish: "Happy birthday! Calories consumed on birthdays don't count. It's the law.",
         trivia: "Italy has a free public wine fountain that's open 24 hours a day.",
         neighbours: ["France", "Austria", "Slovenia", "Malta", "Greece"]
     },
 
     Austria: {
         frog: "Christian Stocker 🐸",
-        birthdayWish: "Alles Gute! May your year be as harmonious as a Viennese waltz and as refreshing as Alpine air.",
+        birthdayWish: "Alles Gute! Vienna welcomes you. Mozart, Beethoven, and Strauss were here... unfortunately they cannot hear your piano skills anymore.",
         trivia: "Austria is now a small country, but the Habsburgs once ruled one of Europe's largest empires.",
         neighbours: ["Germany", "Czechia", "Slovakia", "Hungary", "Slovenia", "Italy"]
     },
 
     Czechia: {
         frog: "Andrej Babiš 🐸",
-        birthdayWish: "Všechno nejlepší! May your year be full of fairy-tale adventures and legendary celebrations.",
+        birthdayWish: "Happy birthday! Have a beer. Yes, even for breakfast.",
         trivia: "Czechs drink more beer per person than any other country.",
         neighbours: ["Germany", "Poland", "Slovakia", "Austria"]
     },
 
     Poland: {
         frog: "Donald Tusk 🐸",
-        birthdayWish: "Wszystkiego najlepszego! May your year be full of courage, joy, and unforgettable memories.",
+        birthdayWish: "Wszystkiego najlepszego! Poland has survived partitions, invasions, and centuries of trouble. Your exams should be easier.",
         trivia: "The Polish-Lithuanian Commonwealth once stretched from the Baltic almost to the Black Sea.",
         neighbours: ["Germany", "Czechia", "Slovakia", "Lithuania"]
     },
@@ -100,7 +100,7 @@ const countries = {
 
     Hungary: {
         frog: "Péter Magyar 🐸",
-        birthdayWish: "Boldog születésnapot! May your year be warmed by good friends and Hungary's famous thermal baths.",
+        birthdayWish: "Boldog születésnapot! I forgot your birthday... Anyway, more was lost at Mohács.",
         trivia: "Budapest sits atop more than 100 thermal springs, earning it the nickname 'City of Spas'.",
         neighbours: ["Austria", "Slovakia", "Romania", "Croatia", "Slovenia"]
     },
@@ -114,7 +114,7 @@ const countries = {
 
     Croatia: {
         frog: "Andrej Plenković 🐸",
-        birthdayWish: "Sretan rođendan! May your year be filled with sunshine, crystal-clear seas, and island adventures.",
+        birthdayWish: "Happy birthday! Yes, we're part of the EU now. You're welcome.",
         trivia: "The necktie originated in Croatia - the word cravat comes from Croat.",
         neighbours: ["Slovenia", "Hungary"]
     },
@@ -128,63 +128,63 @@ const countries = {
 
     Bulgaria: {
         frog: "Rumen Radev 🐸",
-        birthdayWish: "Честит рожден ден! May your year bloom with happiness like the famous Rose Valley.",
+        birthdayWish: "Честит рожден ден! We know many Greeks visit Bulgaria... don't worry, we won't judge your shopping bags.",
         trivia: "The first Bulgarian Empire once stretched from the Black Sea to the Adriatic.",
         neighbours: ["Greece", "Romania"]
     },
 
     Romania: {
         frog: "Nicușor Dan 🐸",
-        birthdayWish: "La mulți ani! May your year be full of legendary adventures and mountain-high happiness.",
+        birthdayWish: "La mulți ani! Welcome to Romania! Don't worry, the vampires only come out at night... probably.",
         trivia: "Romania is home to Europe's largest population of brown bears outside Russia.",
         neighbours: ["Hungary", "Bulgaria"]
     },
 
     Lithuania: {
         frog: "Gitanas Nausėda 🐸",
-        birthdayWish: "Su gimtadieniu! May your year shine brightly and bring plenty of reasons to celebrate.",
+        birthdayWish: "Su gimtadieniu! Lithuanian is one of the oldest living languages in the world. Good luck pronouncing your birthday wish correctly.",
         trivia: "Lithuania was the last pagan country in Europe to officially adopt Christianity.",
         neighbours: ["Latvia", "Poland"]
     },
 
     Latvia: {
         frog: "Andris Kulbergs 🐸",
-        birthdayWish: "Daudz laimes! May your year be as refreshing as a walk through Latvia's forests.",
+        birthdayWish: "Daudz laimes! Enjoy Latvia! We promise the forests are beautiful and the weather is only slightly trying to freeze you.",
         trivia: "Over half of Latvia is covered by forests, making it one of Europe's greenest countries.",
         neighbours: ["Lithuania", "Estonia"]
     },
 
     Estonia: {
         frog: "Kristen Michal 🐸",
-        birthdayWish: "Palju õnne! May your year be smart, smooth, and just a little bit magical.",
+        birthdayWish: "Palju õnne! Estonia has everything online. Even your birthday cake probably has a digital version.",
         trivia: "Estonia pioneered online voting and offers almost all government services digitally.",
         neighbours: ["Latvia", "Finland"]
     },
 
     Sweden: {
         frog: "Ulf Kristersson 🐸",
-        birthdayWish: "Grattis! May your year be full of fika breaks, happiness, and exciting adventures.",
+        birthdayWish: "Happy birthday! Have some fika. Then another fika. Then maybe another fika.",
         trivia: "Sweden was once one of Europe's great powers before its defeat at the Battle of Poltava in 1709.",
         neighbours: ["Finland", "Denmark"]
     },
 
     Finland: {
         frog: "Petteri Orpo 🐸",
-        birthdayWish: "Hyvää syntymäpäivää! May your year be as relaxing as a Finnish sauna and as peaceful as a summer lake.",
+        birthdayWish: "Hyvää syntymäpäivää! Enjoy the sauna. Try not to get sick. Actually, maybe don't stay here too long...",
         trivia: "Finland has around 188,000 lakes and more saunas than cars.",
         neighbours: ["Sweden", "Estonia"]
     },
 
     Cyprus: {
-        frog: "Nikos Christodoulides 🐸",
-        birthdayWish: "Χρόνια πολλά! May your year be filled with sunshine, warm seas, and endless smiles.",
+        frog: "Orestis the Great 👑🐸",
+        birthdayWish: "You look surprised... You didn't expect the Ένωσις, did you?",
         trivia: "Cyprus is one of the few countries whose national flag shows a map of the country itself.",
         neighbours: ["Greece"]
     },
 
     Malta: {
         frog: "Robert Abela 🐸",
-        birthdayWish: "Għeluq is-sena t-tajjeb! May your year be as bright as the Maltese sunshine and as unforgettable as its history.",
+        birthdayWish: "Happy birthday! Watch your step - everything here is older than you.",
         trivia: "Malta's prehistoric temples are older than Stonehenge and even the Egyptian pyramids.",
         neighbours: ["Italy"]
     }
