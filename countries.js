@@ -4,14 +4,14 @@ const countries = {
         frog: "Bart De Wever 🐸",
         birthdayWish: "Gelukkige verjaardag! May your year be sweeter than Belgian chocolate and smoother than a train arriving on time... somewhere in Europe.",
         trivia: "Belgium has three official languages and more castles per square kilometre than almost any other country in the world.",
-        neighbours: ["France", "Netherlands", "Luxembourg", "Germany"]
+        neighbours: ["France", "Netherlands", "Luxembourg", "Germany", "Ireland"]
     },
 
     France: {
         frog: "Emmanuel Macron 🐸",
         birthdayWish: "Joyeux anniversaire! May your year be filled with great food, beautiful adventures, and not a single queue at the Eiffel Tower.",
         trivia: "France is the world's most visited country, welcoming around 100 million visitors each year.",
-        neighbours: ["Belgium", "Luxembourg", "Germany", "Italy", "Spain"]
+        neighbours: ["Belgium", "Luxembourg", "Germany", "Italy", "Spain", "Ireland"]
     },
 
     Germany: {
@@ -39,14 +39,14 @@ const countries = {
         frog: "Mette Frederiksen 🐸",
         birthdayWish: "Tillykke! May your year be full of hygge, happiness, and plenty of LEGO-worthy memories.",
         trivia: "The LEGO brick was invented in Denmark, and the word 'LEGO' comes from the Danish phrase 'leg godt' ('play well').",
-        neighbours: ["Germany"]
+        neighbours: ["Germany", "Sweden"]
     },
 
     Ireland: {
         frog: "Micheál Martin 🐸",
         birthdayWish: "Lá breithe sona! May your year be filled with good friends, good stories, and a little Irish luck.",
         trivia: "Ireland is known as the Emerald Isle because of its famously green landscapes.",
-        neighbours: []
+        neighbours: ["France", "Belgium"]
     },
 
     Spain: {
@@ -67,7 +67,7 @@ const countries = {
         frog: "Giorgia Meloni 🐸",
         birthdayWish: "Buon compleanno! May your year be filled with unforgettable journeys, amazing food, and perfect gelato weather.",
         trivia: "Italy has more UNESCO World Heritage Sites than any other country.",
-        neighbours: ["France", "Austria", "Slovenia", "Malta"]
+        neighbours: ["France", "Austria", "Slovenia", "Malta", "Greece"]
     },
 
     Austria: {
@@ -123,7 +123,7 @@ const countries = {
         frog: "Orestis the Great 👑🐸",
         birthdayWish: "Ad multos annos! While you were travelling around Europe... I became King of Greece. Please don't overthrow me. Also... could you ask Leonor to date me once you visit Spain? 😉",
         trivia: "Greece is the birthplace of democracy and the Olympic Games.",
-        neighbours: ["Bulgaria", "Cyprus"]
+        neighbours: ["Bulgaria", "Cyprus", "Italy"]
     },
 
     Bulgaria: {
@@ -158,21 +158,21 @@ const countries = {
         frog: "Kristen Michal 🐸",
         birthdayWish: "Palju õnne! May your year be smart, smooth, and just a little bit magical.",
         trivia: "Estonia pioneered online voting and offers almost all government services digitally.",
-        neighbours: ["Latvia"]
+        neighbours: ["Latvia", "Finland"]
     },
 
     Sweden: {
         frog: "Ulf Kristersson 🐸",
         birthdayWish: "Grattis! May your year be full of fika breaks, happiness, and exciting adventures.",
         trivia: "Sweden is the birthplace of Spotify, IKEA, and the Nobel Prize.",
-        neighbours: ["Finland"]
+        neighbours: ["Finland", "Denmark"]
     },
 
     Finland: {
         frog: "Petteri Orpo 🐸",
         birthdayWish: "Hyvää syntymäpäivää! May your year be as relaxing as a Finnish sauna and as peaceful as a summer lake.",
         trivia: "Finland has around 188,000 lakes and more saunas than cars.",
-        neighbours: ["Sweden"]
+        neighbours: ["Sweden", "Estonia"]
     },
 
     Cyprus: {
