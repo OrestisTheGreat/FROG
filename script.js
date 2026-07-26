@@ -492,7 +492,7 @@ function checkVictory(){
 
         efficiency.textContent =
             Math.round(
-                (35 / moves) * 100
+                (30 / moves) * 100
             )
             + "%";
 
