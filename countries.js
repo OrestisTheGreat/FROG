@@ -131,7 +131,7 @@ const countries = {
     Croatia: {
         frog: "Andrej Plenković 🐸",
         sound: "frog2.mp3",
-        birthdayWish: "Happy birthday! Yes, we're part of the EU now. You're welcome.",
+        birthdayWish: "Happy birthday! We promise the sea is worth the detour.",
         trivia: "The necktie originated in Croatia - the word cravat comes from Croat.",
         neighbours: ["Slovenia", "Hungary"]
     },
