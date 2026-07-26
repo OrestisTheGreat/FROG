@@ -1,7 +1,7 @@
 const countries = {
 
     Belgium: {
-        frog: "Bart De Wever 🐸",
+        frog: "Sir Wafflecroft (Bart De Wever) 🐸",
         sound: "frog.mp3",
         birthdayWish: "Happy birthday! By the time we finish forming a government, it'll be your next birthday.",
         trivia: "Belgium has more castles per square kilometre than almost any country in the world.",
@@ -9,7 +9,7 @@ const countries = {
     },
 
     France: {
-        frog: "Emmanuel Macron 🐸",
+        frog: "François le Frog (Emmanuel Macron) 🐸",
         sound: "frog.mp3",
         birthdayWish: "Congratulations on your eTwinning award. Now stop collecting awards and enjoy your birthday.",
         trivia: "The Eiffel Tower grows about 15 cm taller every summer because steel expands in the heat.",
@@ -17,7 +17,7 @@ const countries = {
     },
 
     Germany: {
-        frog: "Friedrich Merz 🐸",
+        frog: "Chancellor Croakus (Friedrich Merz) 🐸",
         sound: "frog.mp3",
         birthdayWish: "Alles Gute! Your itinerary has been approved. Please proceed to your birthday in an orderly fashion.",
         trivia: "Germany once consisted of hundreds of tiny kingdoms, duchies, bishoprics, and free cities under the Holy Roman Empire.",
@@ -25,7 +25,7 @@ const countries = {
     },
 
     Netherlands: {
-        frog: "Rob Jetten 🐸",
+        frog: "Ribbit van Oranje (Rob Jetten) 🐸",
         sound: "frog.mp3",
         birthdayWish: "Gefeliciteerd! Here's your tulip. Please keep your feet on the ground. The Netherlands has enough experience fighting things trying to rise above sea level.",
         trivia: "The Netherlands was once ruled by the Dukes of Burgundy, then the Habsburgs, before winning its independence from Spain.",
@@ -33,7 +33,7 @@ const countries = {
     },
 
     Luxembourg: {
-        frog: "Luc Frieden 🐸",
+        frog: "Grand Duke Hoppingen (Luc Frieden) 🐸",
         sound: "frog.mp3",
         birthdayWish: "Happy birthday! Don't blink or you'll accidentally leave the country.",
         trivia: "Nearly half of Luxembourg's workforce commutes from neighbouring countries every day.",
@@ -41,7 +41,7 @@ const countries = {
     },
 
     Denmark: {
-        frog: "Mette Frederiksen 🐸",
+        frog: "Prince Ribbitsen (Mette Frederiksen) 🐸",
         sound: "frog3.mp3",
         birthdayWish: "Happy birthday! Here's some LEGO. Assembly required.",
         trivia: "The LEGO brick was invented in Denmark, and the word 'LEGO' comes from the Danish phrase 'leg godt' ('play well').",
@@ -49,7 +49,7 @@ const countries = {
     },
 
     Ireland: {
-        frog: "Micheál Martin 🐸",
+        frog: "Paddy O'Croak (Micheál Martin) 🐸",
         sound: "frog3.mp3",
         birthdayWish: "Lá breithe sona! May your year be full of good music, great stories, and only the right kind of Irish luck.",
         trivia: "Halloween as we know it began in ancient Ireland with the Celtic festival of Samhain.",
@@ -57,7 +57,7 @@ const countries = {
     },
 
     Spain: {
-        frog: "Pedro Sánchez 🐸",
+        frog: "Don Ribbito (Pedro Sánchez) 🐸",
         sound: "frog4.mp3",
         birthdayWish: "¡Feliz cumpleaños! Also... Leonor asked me to tell you she's not interested in Orestis. Sorry.",
         trivia: "Spain hosts La Tomatina, where tens of thousands of people throw tomatoes at each other just for fun.",
@@ -65,7 +65,7 @@ const countries = {
     },
 
     Portugal: {
-        frog: "Luís Montenegro 🐸",
+        frog: "Senhor Saltitão (Luís Montenegro) 🐸",
         sound: "frog4.mp3",
         birthdayWish: "Feliz aniversário! Welcome back! We were wondering when you'd visit us again.",
         trivia: "Portugal's cork forests produce over half of the world's cork.",
@@ -73,7 +73,7 @@ const countries = {
     },
 
     Italy: {
-        frog: "Giorgia Meloni 🐸",
+        frog: "Signora Ribbitina (Giorgia Meloni) 🐸",
         sound: "frog4.mp3",
         birthdayWish: "Happy birthday! Calories consumed on birthdays don't count. It's the law.",
         trivia: "Italy has a free public wine fountain that's open 24 hours a day.",
@@ -81,7 +81,7 @@ const countries = {
     },
 
     Austria: {
-        frog: "Christian Stocker 🐸",
+        frog: "Leopold von Frogburg (Christian Stocker) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Alles Gute! Vienna welcomes you. Mozart, Beethoven, and Strauss were here... unfortunately they cannot hear your piano skills anymore.",
         trivia: "Austria is now a small country, but the Habsburgs once ruled one of Europe's largest empires.",
@@ -89,7 +89,7 @@ const countries = {
     },
 
     Czechia: {
-        frog: "Andrej Babiš 🐸",
+        frog: "Sir Hoppek (Andrej Babiš) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Happy birthday! Have a beer. Yes, even for breakfast.",
         trivia: "Czechs drink more beer per person than any other country.",
@@ -97,7 +97,7 @@ const countries = {
     },
 
     Poland: {
-        frog: "Donald Tusk 🐸",
+        frog: "Sir Croaksław (Donald Tusk) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Wszystkiego najlepszego! Poland has survived partitions, invasions, and centuries of trouble. Your exams should be easier.",
         trivia: "The Polish-Lithuanian Commonwealth once stretched from the Baltic almost to the Black Sea.",
@@ -105,7 +105,7 @@ const countries = {
     },
 
     Slovakia: {
-        frog: "Robert Fico 🐸",
+        frog: "Count Croaksky (Robert Fico) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Všetko najlepšie! May your year reach new heights like the Tatras.",
         trivia: "Slovakia has hundreds of caves, including spectacular ice caves open to visitors.",
@@ -113,7 +113,7 @@ const countries = {
     },
 
     Hungary: {
-        frog: "Péter Magyar 🐸",
+        frog: "Lord Frogyadi (Péter Magyar) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Boldog születésnapot! I forgot your birthday... Anyway, more was lost at Mohács.",
         trivia: "Budapest sits atop more than 100 thermal springs, earning it the nickname 'City of Spas'.",
@@ -121,7 +121,7 @@ const countries = {
     },
 
     Slovenia: {
-        frog: "Janez Janša 🐸",
+        frog: "Bled Hoppnic (Janez Janša) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Vse najboljše! May your year be as peaceful as Lake Bled and as adventurous as the Alps.",
         trivia: "Slovenia was the first former Yugoslav republic to join the euro.",
@@ -129,7 +129,7 @@ const countries = {
     },
 
     Croatia: {
-        frog: "Andrej Plenković 🐸",
+        frog: "Captain Frogomirovic (Andrej Plenković) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Happy birthday! We promise the sea is worth the detour.",
         trivia: "The necktie originated in Croatia - the word cravat comes from Croat.",
@@ -137,7 +137,7 @@ const countries = {
     },
 
     Greece: {
-        frog: "Orestis the Great 👑🐸",
+        frog: "His Amphibious Majesty Orestis the Great 👑🐸",
         sound: "medieval.mp3",
         birthdayWish: "Ad multos annos! While you were travelling around Europe... I became King of Greece. Please don't overthrow me. Also... could you ask Leonor to date me once you visit Spain? 😉",
         trivia: "Greece has around 6,000 islands and islets - but only about 200 are inhabited.",
@@ -145,7 +145,7 @@ const countries = {
     },
 
     Bulgaria: {
-        frog: "Rumen Radev 🐸",
+        frog: "Tsar Croakimir (Rumen Radev) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Честит рожден ден! We know many Greeks visit Bulgaria... don't worry, we won't judge your shopping bags.",
         trivia: "The first Bulgarian Empire once stretched from the Black Sea to the Adriatic.",
@@ -153,7 +153,7 @@ const countries = {
     },
 
     Romania: {
-        frog: "Nicușor Dan 🐸",
+        frog: "Count Ribbicula (Nicușor Dan) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "La mulți ani! Welcome to Romania! Don't worry, the vampires only come out at night... probably.",
         trivia: "Romania is home to Europe's largest population of brown bears outside Russia.",
@@ -161,7 +161,7 @@ const countries = {
     },
 
     Lithuania: {
-        frog: "Gitanas Nausėda 🐸",
+        frog: "Grand Duke Frogas (Gitanas Nausėda) 🐸",
         sound: "frog3.mp3",
         birthdayWish: "Su gimtadieniu! Lithuanian is one of the oldest living languages in the world. Good luck pronouncing your birthday wish correctly.",
         trivia: "Lithuania was the last pagan country in Europe to officially adopt Christianity.",
@@ -169,7 +169,7 @@ const countries = {
     },
 
     Latvia: {
-        frog: "Andris Kulbergs 🐸",
+        frog: "Forest Hopper (Andris Kulbergs) 🐸",
         sound: "frog3.mp3",
         birthdayWish: "Daudz laimes! Enjoy Latvia! We promise the forests are beautiful and the weather is only slightly trying to freeze you.",
         trivia: "Over half of Latvia is covered by forests, making it one of Europe's greenest countries.",
@@ -177,7 +177,7 @@ const countries = {
     },
 
     Estonia: {
-        frog: "Kristen Michal 🐸",
+        frog: "e-Frog 2.0 (Kristen Michal) 🐸",
         sound: "frog3.mp3",
         birthdayWish: "Palju õnne! Estonia has everything online. Even your birthday cake probably has a digital version.",
         trivia: "Estonia pioneered online voting and offers almost all government services digitally.",
@@ -185,7 +185,7 @@ const countries = {
     },
 
     Sweden: {
-        frog: "Ulf Kristersson 🐸",
+        frog: "King Frogustav (Ulf Kristersson) 🐸",
         sound: "frog3.mp3",
         birthdayWish: "Happy birthday! Have some fika. Then another fika. Then maybe another fika.",
         trivia: "Sweden was once one of Europe's great powers before its defeat at the Battle of Poltava in 1709.",
@@ -193,7 +193,7 @@ const countries = {
     },
 
     Finland: {
-        frog: "Petteri Orpo 🐸",
+        frog: "Sauna Hopper (Petteri Orpo) 🐸",
         sound: "frog3.mp3",
         birthdayWish: "Hyvää syntymäpäivää! Enjoy the sauna. Try not to get sick. Actually, maybe don't stay here too long...",
         trivia: "Finland has around 188,000 lakes and more saunas than cars.",
@@ -201,7 +201,7 @@ const countries = {
     },
 
     Cyprus: {
-        frog: "Orestis the Great 👑🐸",
+        frog: "His Amphibious Majesty Orestis the Great 👑🐸",
         sound: "medieval.mp3",
         birthdayWish: "You look surprised... You didn't expect the Ένωσις, did you?",
         trivia: "Cyprus is one of the few countries whose national flag shows a map of the country itself.",
@@ -209,7 +209,7 @@ const countries = {
     },
 
     Malta: {
-        frog: "Robert Abela 🐸",
+        frog: "Knight of Croakta (Robert Abela) 🐸",
         sound: "frog4.mp3",
         birthdayWish: "Happy birthday! Watch your step - everything here is older than you.",
         trivia: "Malta's prehistoric temples are older than Stonehenge and even the Egyptian pyramids.",
