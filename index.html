@@ -2,63 +2,170 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Frog Leaders of Europe</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
+
 <div class="container">
 
+
     <h1>🐸 Frog Leaders of Europe 🐸</h1>
+
 
     <p class="subtitle">
         A birthday adventure across the European Union.
     </p>
 
+
+
     <button id="startButton">
         Start Game
     </button>
 
+
+
+
     <div id="gameArea" style="display:none;">
+
+
+
+        <div id="stats">
+
+            🚶 Moves:
+            <span id="moveCounter">0</span>
+
+            |
+
+            🌍 Countries:
+            <span id="visitedCounter">1</span>/27
+
+        </div>
+
+
+
+
+        <h2 id="countryName"></h2>
+
+
 
         <div id="map"></div>
 
+
+
     </div>
+
+
 
 </div>
 
 
-<!-- POPUP -->
+
+
 
 <div id="popup" class="hidden">
 
+
     <div id="popupCard">
 
-        <h2 id="countryName"></h2>
 
-        <h3 id="frog"></h3>
+        <h2 id="popupCountry"></h2>
 
-        <p id="birthday"></p>
 
-        <p id="trivia"></p>
+        <p id="popupFrog"></p>
+
+
+        <p id="popupBirthday"></p>
+
+
+        <p id="popupTrivia"></p>
+
+
 
         <button id="continueButton">
             Continue
         </button>
 
+
+
     </div>
 
+
 </div>
+
+
+
+
+
+<div id="victory" class="hidden">
+
+
+    <div id="victoryCard">
+
+
+        <h1>
+            🎉 Congratulations! 🎉
+        </h1>
+
+
+
+        <p>
+            You successfully travelled across Europe
+            and met every frog leader!
+        </p>
+
+
+
+        <p>
+            🐸 Birthday wishes collected:
+            27 / 27
+        </p>
+
+
+
+        <p>
+            🚶 Moves used:
+            <span id="finalMoves"></span>
+        </p>
+
+
+
+        <p>
+            ⭐ Optimal solution:
+            35 moves
+        </p>
+
+
+
+        <p>
+            📊 Efficiency:
+            <span id="efficiency"></span>
+        </p>
+
+
+
+    </div>
+
+
+</div>
+
+
+
 
 
 <script src="countries.js"></script>
 <script src="map.js"></script>
 <script src="script.js"></script>
+
 
 </body>
 
