@@ -1,7 +1,7 @@
 const countries = {
 
     Belgium: {
-        frog: "Sir Wafflecroft (Bart De Wever) 🐸",
+        frog: "Sir Croak de Waffle (Bart De Wever) 🐸",
         sound: "frog.mp3",
         birthdayWish: "Happy birthday! By the time we finish forming a government, it'll be your next birthday.",
         trivia: "Belgium has more castles per square kilometre than almost any country in the world.",
@@ -89,7 +89,7 @@ const countries = {
     },
 
     Czechia: {
-        frog: "Sir Hoppek (Andrej Babiš) 🐸",
+        frog: "Jan Croakoslav (Andrej Babiš) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Happy birthday! Have a beer. Yes, even for breakfast.",
         trivia: "Czechs drink more beer per person than any other country.",
@@ -97,7 +97,7 @@ const countries = {
     },
 
     Poland: {
-        frog: "Sir Croaksław (Donald Tusk) 🐸",
+        frog: "Król Croaksław (Donald Tusk) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Wszystkiego najlepszego! Poland has survived partitions, invasions, and centuries of trouble. Your exams should be easier.",
         trivia: "The Polish-Lithuanian Commonwealth once stretched from the Baltic almost to the Black Sea.",
@@ -121,7 +121,7 @@ const countries = {
     },
 
     Slovenia: {
-        frog: "Bled Hoppnic (Janez Janša) 🐸",
+        frog: "Lord Ljubljumps (Janez Janša) 🐸",
         sound: "frog2.mp3",
         birthdayWish: "Vse najboljše! May your year be as peaceful as Lake Bled and as adventurous as the Alps.",
         trivia: "Slovenia was the first former Yugoslav republic to join the euro.",
@@ -169,7 +169,7 @@ const countries = {
     },
 
     Latvia: {
-        frog: "Forest Hopper (Andris Kulbergs) 🐸",
+        frog: "Lord Boghopper (Andris Kulbergs) 🐸",
         sound: "frog3.mp3",
         birthdayWish: "Daudz laimes! Enjoy Latvia! We promise the forests are beautiful and the weather is only slightly trying to freeze you.",
         trivia: "Over half of Latvia is covered by forests, making it one of Europe's greenest countries.",
