@@ -2,7 +2,7 @@ const countries = {
 
     Belgium: {
         frog: "Bart De Wever 🐸",
-        birthdayWish: "Happy birthday! Please choose your birthday language: Dutch, French, or German.",
+        birthdayWish: "Happy birthday! By the time we finish forming a government, it'll be your next birthday.",
         trivia: "Belgium has more castles per square kilometre than almost any country in the world.",
         neighbours: ["France", "Netherlands", "Luxembourg", "Germany", "Ireland"]
     },
