@@ -95,7 +95,7 @@ const countries = {
         frog: "Robert Fico 🐸",
         birthdayWish: "Všetko najlepšie! May your year reach new heights like the Tatras.",
         trivia: "Slovakia has more castles and castle ruins per person than almost any other country.",
-        neighbours: ["Czechia", "Austria", "Hungary"]
+        neighbours: ["Czechia", "Austria", "Hungary", "Poland"]
     },
 
     Hungary: {
