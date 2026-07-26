@@ -365,7 +365,7 @@ function addVanessa(){
 
 
 
-    player.textContent="👩🏻‍🦱";
+    player.textContent="👧🏻";
 
 
 
