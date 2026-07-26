@@ -116,21 +116,15 @@ button:hover {
 
 .edge {
 
+    position: absolute;
 
-    position:absolute;
+    height: 2px;
 
+    background-color: #777;
 
-    height:2px;
+    transform-origin: left center;
 
-
-    background:#999;
-
-
-    transform-origin:left center;
-
-
-    z-index:0;
-
+    z-index: 0;
 
 }
 
@@ -186,7 +180,6 @@ button:hover {
 
 
 }
-
 
 
 
