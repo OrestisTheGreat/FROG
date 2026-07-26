@@ -47,7 +47,8 @@ const abbreviations = {
     Sweden: "SE",
     Finland: "FI",
     Cyprus: "CY",
-    Malta: "MT"
+    Malta: "MT",
+    Poland: "PL"
 
 };
 
