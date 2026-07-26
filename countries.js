@@ -1,33 +1,69 @@
 const countries = {
 
     Belgium: {
-        frog: "Bart the Belgian Frog",
-        birthdayWish: "Gelukkige verjaardag! 🐸",
-        trivia: "Belgium has three official languages.",
+
+        frog: "🐸 Bart the Belgian Frog",
+
+        birthdayWish:
+            "Gelukkige verjaardag! May your year be full of waffles and adventures!",
+
+        trivia:
+            "Belgium has three official languages.",
+
         neighbours: [
             "France"
-        ]
+        ],
+
+        position: {
+            x: 100,
+            y: 150
+        }
+
     },
 
 
     France: {
-        frog: "François the Frog",
-        birthdayWish: "Joyeux anniversaire! 🐸",
-        trivia: "France is the largest country in the EU by area.",
+
+        frog: "🐸 François the French Frog",
+
+        birthdayWish:
+            "Joyeux anniversaire! Enjoy a year full of creativity!",
+
+        trivia:
+            "France is the largest EU country by area.",
+
         neighbours: [
             "Belgium",
             "Germany"
-        ]
+        ],
+
+        position: {
+            x: 250,
+            y: 250
+        }
+
     },
 
 
     Germany: {
-        frog: "Friedrich the Frog",
-        birthdayWish: "Alles Gute zum Geburtstag! 🐸",
-        trivia: "Germany has over 20,000 castles.",
+
+        frog: "🐸 Friedrich the German Frog",
+
+        birthdayWish:
+            "Alles Gute zum Geburtstag! May your adventures continue!",
+
+        trivia:
+            "Germany has more than 20,000 castles.",
+
         neighbours: [
             "France"
-        ]
+        ],
+
+        position: {
+            x: 450,
+            y: 150
+        }
+
     }
 
 };
