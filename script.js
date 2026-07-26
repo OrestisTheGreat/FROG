@@ -16,6 +16,7 @@ const trivia = document.getElementById("trivia");
 let currentCountry = "Belgium";
 
 
+
 startButton.addEventListener("click", function () {
 
     startButton.style.display = "none";
@@ -31,7 +32,10 @@ startButton.addEventListener("click", function () {
 
 
 
+
+
 function drawMap() {
+
 
     map.innerHTML = "";
 
@@ -45,7 +49,11 @@ function drawMap() {
         node.className = "countryNode";
 
 
-        node.textContent = country;
+        node.textContent = "🐸";
+
+
+        node.dataset.country = country;
+
 
 
         node.style.left =
@@ -62,13 +70,18 @@ function drawMap() {
 
             if (canTravelTo(country)) {
 
+
                 currentCountry = country;
+
 
                 showCountry();
 
+
                 drawMap();
 
+
             }
+
 
         });
 
@@ -80,7 +93,43 @@ function drawMap() {
     });
 
 
+
+    addVanessa();
+
+
+
 }
+
+
+
+
+
+function addVanessa() {
+
+
+    const player = document.createElement("div");
+
+
+    player.className = "player";
+
+
+    player.textContent = "👩🏻‍🦱";
+
+
+    player.style.left =
+        (mapPositions[currentCountry].x / 5 + 20) + "px";
+
+
+    player.style.top =
+        (mapPositions[currentCountry].y / 5 - 20) + "px";
+
+
+    map.appendChild(player);
+
+
+}
+
+
 
 
 
@@ -93,6 +142,8 @@ function canTravelTo(country) {
 
 
 }
+
+
 
 
 
@@ -116,33 +167,7 @@ function showCountry() {
         countries[currentCountry].trivia;
 
 
-    highlightCurrentCountry();
-
 }
-
-
-
-function highlightCurrentCountry() {
-
-
-    const buttons =
-        document.querySelectorAll(".countryNode");
-
-
-    buttons.forEach(function(button) {
-
-
-        if (button.textContent === currentCountry) {
-
-            button.style.backgroundColor = "#ffcc00";
-
-        }
-
-        else {
-
-            button.style.backgroundColor = "#4CAF50";
-
-        }
 
 
     });
