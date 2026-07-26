@@ -30,7 +30,7 @@ const countries = {
 
     Luxembourg: {
         frog: "Luc Frieden 🐸",
-        birthdayWish: "Happy birthday! May your year be small on worries but grand on adventures—just like Luxembourg.",
+        birthdayWish: "Happy birthday! May your year be small on worries but grand on adventures - just like Luxembourg.",
         trivia: "Nearly half of Luxembourg's workforce commutes from neighbouring countries every day.",
         neighbours: ["Belgium", "France", "Germany"]
     },
