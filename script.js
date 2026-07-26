@@ -110,6 +110,7 @@ const abbreviations = {
 };
 
 
+const croak = new Audio("sounds/frog.mp3");
 
 
 
@@ -432,6 +433,9 @@ function openPopup(){
 
 
     popup.classList.remove("hidden");
+
+    croak.currentTime = 0;
+    croak.play();
 
 
 }
