@@ -21,6 +21,7 @@ const abbreviations = {
     Belgium: "BE",
     France: "FR",
     Germany: "DE",
+    Poland: "PL",
     Netherlands: "NL",
     Luxembourg: "LU",
     Denmark: "DK",
