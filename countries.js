@@ -3,7 +3,7 @@ const countries = {
     Belgium: {
         frog: "Bart De Wever 🐸",
         birthdayWish: "Gelukkige verjaardag! May your year be sweeter than Belgian chocolate and smoother than a train arriving on time... somewhere in Europe.",
-        trivia: "Belgium has three official languages and more castles per square kilometre than almost any other country in the world.",
+        trivia: "Belgium has more castles per square kilometre than almost any country in the world.",
         neighbours: ["France", "Netherlands", "Luxembourg", "Germany", "Ireland"]
     },
 
@@ -31,7 +31,7 @@ const countries = {
     Luxembourg: {
         frog: "Luc Frieden 🐸",
         birthdayWish: "Happy birthday! May your year be small on worries but grand on adventures—just like Luxembourg.",
-        trivia: "Despite its size, Luxembourg has one of the highest GDPs per person in the world.",
+        trivia: "Nearly half of Luxembourg's workforce commutes from neighbouring countries every day.",
         neighbours: ["Belgium", "France", "Germany"]
     },
 
@@ -108,7 +108,7 @@ const countries = {
     Slovenia: {
         frog: "Janez Janša 🐸",
         birthdayWish: "Vse najboljše! May your year be as peaceful as Lake Bled and as adventurous as the Alps.",
-        trivia: "Over half of Slovenia is covered by forest, making it one of Europe's greenest countries.",
+        trivia: "Slovenia was the first former Yugoslav republic to join the euro.",
         neighbours: ["Austria", "Italy", "Croatia", "Hungary"]
     },
 
