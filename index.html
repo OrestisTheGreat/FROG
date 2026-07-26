@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
 
 <div class="container">
@@ -21,43 +20,45 @@
         A birthday adventure across the European Union.
     </p>
 
-
     <button id="startButton">
         Start Game
     </button>
 
-
     <div id="gameArea" style="display:none;">
-
-
-        <h2 id="countryName"></h2>
-
 
         <div id="map"></div>
 
-
-        <div id="frogInfo">
-
-            <p id="frog"></p>
-
-            <p id="birthday"></p>
-
-            <p id="trivia"></p>
-
-        </div>
-
-
     </div>
-
 
 </div>
 
+
+<!-- POPUP -->
+
+<div id="popup" class="hidden">
+
+    <div id="popupCard">
+
+        <h2 id="countryName"></h2>
+
+        <h3 id="frog"></h3>
+
+        <p id="birthday"></p>
+
+        <p id="trivia"></p>
+
+        <button id="continueButton">
+            Continue
+        </button>
+
+    </div>
+
+</div>
 
 
 <script src="countries.js"></script>
 <script src="map.js"></script>
 <script src="script.js"></script>
-
 
 </body>
 
