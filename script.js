@@ -84,7 +84,6 @@ function drawMap() {
         updateStats();
         drawMap();
         openPopup();
-        checkVictory();
       }
     });
 
@@ -148,6 +147,7 @@ function openPopup() {
 
 continueButton.addEventListener("click", function () {
   popup.classList.add("hidden");
+  checkVictory();
 });
 
 function updateStats() {
@@ -159,6 +159,10 @@ function checkVictory() {
   if (visitedCountries.length === 27) {
     finalMoves.textContent = moves;
     efficiency.textContent = Math.round((30 / moves) * 100) + "%";
+
+    const victorySound = new Audio("sounds/victory.mp3");
+    victorySound.play();
+
     victory.classList.remove("hidden");
   }
 }
