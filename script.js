@@ -1,37 +1,22 @@
-const startButton =
-    document.getElementById("startButton");
+const startButton = document.getElementById("startButton");
 
+const gameArea = document.getElementById("gameArea");
 
-const gameArea =
-    document.getElementById("gameArea");
+const countryName = document.getElementById("countryName");
 
+const map = document.getElementById("map");
 
-const countryName =
-    document.getElementById("countryName");
+const frog = document.getElementById("frog");
 
+const birthday = document.getElementById("birthday");
 
-const map =
-    document.getElementById("map");
-
-
-const frog =
-    document.getElementById("frog");
-
-
-const birthday =
-    document.getElementById("birthday");
-
-
-const trivia =
-    document.getElementById("trivia");
-
+const trivia = document.getElementById("trivia");
 
 
 let currentCountry = "Belgium";
 
 
-
-startButton.addEventListener("click", function() {
+startButton.addEventListener("click", function () {
 
     startButton.style.display = "none";
 
@@ -46,14 +31,12 @@ startButton.addEventListener("click", function() {
 
 
 
-
 function drawMap() {
-
 
     map.innerHTML = "";
 
 
-    Object.keys(countries).forEach(function(country) {
+    Object.keys(mapPositions).forEach(function(country) {
 
 
         const node = document.createElement("button");
@@ -62,34 +45,33 @@ function drawMap() {
         node.className = "countryNode";
 
 
-        node.textContent = "🐸 " + country;
+        node.textContent = country;
 
 
         node.style.left =
-            countries[country].position.x + "px";
+            (mapPositions[country].x / 5) + "px";
 
 
         node.style.top =
-            countries[country].position.y + "px";
+            (mapPositions[country].y / 5) + "px";
 
 
 
-        node.addEventListener("click", function() {
+        node.addEventListener("click", function () {
 
 
-            if (
-                countries[currentCountry]
-                .neighbours
-                .includes(country)
-            ) {
+            if (canTravelTo(country)) {
 
                 currentCountry = country;
 
                 showCountry();
 
+                drawMap();
+
             }
 
         });
+
 
 
         map.appendChild(node);
@@ -100,6 +82,17 @@ function drawMap() {
 
 }
 
+
+
+function canTravelTo(country) {
+
+
+    return countries[currentCountry]
+        .neighbours
+        .includes(country);
+
+
+}
 
 
 
@@ -121,6 +114,38 @@ function showCountry() {
     trivia.textContent =
         "📚 Trivia: " +
         countries[currentCountry].trivia;
+
+
+    highlightCurrentCountry();
+
+}
+
+
+
+function highlightCurrentCountry() {
+
+
+    const buttons =
+        document.querySelectorAll(".countryNode");
+
+
+    buttons.forEach(function(button) {
+
+
+        if (button.textContent === currentCountry) {
+
+            button.style.backgroundColor = "#ffcc00";
+
+        }
+
+        else {
+
+            button.style.backgroundColor = "#4CAF50";
+
+        }
+
+
+    });
 
 
 }
